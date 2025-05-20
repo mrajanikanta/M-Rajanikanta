@@ -15,16 +15,16 @@ header {
 .header-content {
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 20px;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 .logo {
-  width: 200px;
-  height: 200px;
-  object-fit: contain;
-  border-radius: 100%; /* optional: makes it circular */
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 0; /* Square shape */
 }
 nav {
   background: #005f5f;
@@ -43,6 +43,13 @@ section {
   padding: 20px;
   background: white;
   border-radius: 8px;
+}
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 0; /* Keeps it square */
+  border: 2px solid #ccc; /* Optional frame */
 }
 #social-media {
   text-align: center;
